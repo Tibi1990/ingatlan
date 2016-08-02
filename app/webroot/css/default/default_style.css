@@ -1,0 +1,1198 @@
+/**************************
+*GENERAL CSS
+***************************/
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif; /*Google fonts*/
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+}
+
+li.line-height{
+	margin-top: 10px;
+}
+
+/*
+*Diveder(GYIK,ADATVEDELMI,KIEMELES,KEDVENCEK)
+*/
+hr.hr-format{
+	border-width: 1px 1px 0;
+   	border-style: solid;
+   	border-color: palevioletred;
+}
+
+/**
+*Google maps,
+*Style listing add
+*Hirdetésfeladásnál
+*/
+#map-canvas{
+	width:100%;
+	height:400px;
+}
+
+/**
+*Google map
+*listing process style
+*Hirdetésmegtekintésekor
+*/
+#google-map{
+	width:100%;
+	height:500px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+}
+
+/**
+*Google maps
+*/
+.controls {
+	margin-top: 16px;
+	border: 1px solid transparent;
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 32px;
+	outline: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/**
+*Google maps
+*/
+#pac-input {
+	background-color: #fff;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 12px;
+	padding: 0 11px 0 13px;
+	text-overflow: ellipsis;
+	width: 400px;
+}
+
+/**
+*Google maps
+*/
+#pac-input:focus {
+	border-color: #4d90fe;
+}
+
+/**
+*Google maps
+*/
+.pac-container {
+	font-family: Roboto;
+}
+
+div.container legend{
+	color:#F1592A;
+	font-style: italic;
+}
+
+/**
+*User profile
+*/
+.user-profile-edit-title{
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 30px;
+}
+
+/**
+*Aktiv/Inaktiv listings button style
+*/
+.profile-aktiv-inaktiv-listings{
+	margin-top:30px;
+}
+
+/**
+*Aktiv,Inactiv,Favorite button
+*/
+div.activ-listings,
+div.inactiv-listings,
+div.favorite-listings{
+	padding: 10px;
+	float:left;
+}
+
+/**
+*General css
+*/
+.clear{
+	clear:both;
+}
+
+#header-logo a{
+	font-size: 25px;
+}
+
+/**
+*Orange color in website
+*/
+.website-color-orange{
+	color:#F1592A;
+}
+
+/**
+*Bold text.
+*/
+.highlight-bold{
+	font-weight: bold;
+}
+
+/**
+*Edit listing page,legend format!!
+*/
+.listing-add .website-color-edit-page{
+	width:200px;
+	color:#F1592A;
+}
+
+/**
+*Rotate arrow class
+*/
+.down-arrow-rent-price,
+.down-arrow-rent-size,
+.down-arrow-rent-city{
+	position: relative;
+}
+
+/**
+*After login dropdown menu inlude(Profil,logout),
+*Login container style
+*/
+.login-user-box{
+	float:right;
+	height: 100px;
+	padding: 10px;
+	margin-bottom:10px;
+}
+
+/*
+??
+.login-user-box ul li{
+	float:left;
+}*/
+
+.login-user-box ul{
+	list-style-type:none;
+	position:relative;
+	display:inline-block;
+	padding:5px 15px;
+	border-radius: 5px;
+	background-color: #3071a9;
+}
+
+/**
+*After Login drop down menu!
+*/
+.login-user-box ul li a{ 
+	display: inline;
+	text-decoration: none;
+	color:#fff;
+}
+
+/**
+*After Login drop down menu!
+*/
+.login-user-box ul ul{
+	display:none;
+}
+
+/**
+*After Login drop down menu!
+*/
+.login-user-box ul li:hover > ul li a{
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/**
+*After Login drop down menu!
+*/
+.login-user-box ul li:hover > ul li a:hover{
+	background-color:#F1592A;
+}
+
+/**
+*After Login drop down menu!
+*/
+.login-user-box ul li:hover > ul{
+	display:block;
+	margin:0px;
+	padding:0px;
+	border-bottom: 1px ridge #eeeeee;
+}
+
+div.forgot-password-box-container{
+	padding: 15px;
+	border:1px solid;
+	border-radius: 8px;
+	background-color: white;
+}
+
+/**
+*Forgott password container-box style
+*/
+.forgot-password-box{
+	margin-bottom:20px;	
+}
+
+/**
+*Registration button style
+*/
+.registration-button{
+	margin-right:1050px;
+	margin-top:15px;
+}
+
+/***
+*User registration style container
+*/
+div.registration-form{
+	background-color: white;
+	border: 2px solid lightgrey;
+	border-radius: 10px;
+	overflow:hidden;
+}
+
+/**
+*Registraion page inner style.
+*/
+div.registration-form-inner{
+	padding: 30px;
+}
+
+div.registration-form-inner legend{
+	font-style: italic;
+}
+
+.login-button{
+	margin-right:1050px;
+}
+
+/**
+*Forgott password style!
+*/
+.forgot-password-button{
+	margin-right:1050px;
+	margin-top:15px;
+}
+
+div.forgot-password-link{
+	margin-top:5px;
+}
+
+/**
+*Highlight forgot password link
+*/
+div.forgot-password-link a:hover{
+	font-weight: bold;
+}
+
+/**
+*Registration label format
+*/
+.registration-form-inner label[for=UserUsername]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+.registration-form-inner label[for=UserFullname]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+.registration-form-inner label[for=UserPassword]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+.registration-form-inner label[for=UserPasswordConfirmation]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+.registration-form-inner label[for=UserEmail]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+.registration-form-inner label[for=UserPhone]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+.registration-form-inner label[for=UserUserPhoto]
+{
+	margin-right: 500px;
+	margin-left: 17px;
+}
+
+/**
+*Textarea can't resize
+*/
+textarea{ 
+	resize:none;
+}
+
+/**
+*Error message format!!!
+*/
+.message{
+	clear: both;
+	color: #fff;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 5px;
+	background: #ffcc00;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -ms-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#E6B800));
+	background-image: -webkit-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -o-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: linear-gradient(top, #ffcc00, #E6B800);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 18px;
+	padding: 10px 14px;
+	color: #404040;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/**
+*Error message format!!!
+*/
+.error-message {
+	background: #ffcc00;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -ms-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#E6B800));
+	background-image: -webkit-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -o-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: linear-gradient(top, #ffcc00, #E6B800);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 18px;
+	padding: 3px 14px;
+	color: #404040;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/**
+*Login page style..
+*/
+div.login-form{
+	background-color: white;
+	border:1px solid;
+	border-radius:8px;
+	padding: 15px;
+}
+
+div.login-form legend{
+	font-style: italic;
+	color:#F1592A;
+}
+
+/**
+*Information about site police
+*background color yellow
+*/
+div.information-box{
+	background-color: ivory;
+	font-family: monospace;
+	border:1px solid;
+	border-radius:8px;
+	padding:10px 0;
+	margin-bottom: 50px;
+}
+
+/**
+*Line height information box,
+*/
+div.information-box li{
+	margin-top:15px;
+}
+
+
+
+div.login-content div.information-box{
+	border:1px solid;
+	border-radius:8px;
+	padding:10px 0;
+}
+
+div.information-box  ul li{
+	line-height: 22px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/**
+*Listing add page!!Input format
+*/
+.listing-add .listing-add{
+	padding-bottom:30px;
+}
+
+.listing-add #ListingCity{
+	margin-left: 100px;
+}
+
+.listing-add #ListingStatusRent{
+	margin-left: 81px;
+}
+
+.listing-add #ListingAddress{
+	margin-left:44px;
+}
+
+.listing-add #ListingStatus{
+	margin-left:30px
+}
+
+.listing-add #ListingState{
+	margin-left:17px;
+}
+
+.listing-add #ListingSize{
+	margin-left:24px
+}
+
+.listing-add #ListingNumbersRoom{
+	margin-left:30px;
+}
+
+.listing-add #ListingHeating{
+	margin-left:85px;
+}
+
+.listing-add #ListingParking{
+	margin-left:63px;
+}
+
+.listing-add #ListingRentPrice{
+	margin-left:21px;
+}
+
+.listing-add #ListingDeposit{
+	margin-left:60px 
+}
+
+.listing-add #ListingDescriptionHu{
+	margin-left: 75px
+}
+
+.listing-add #ListingDescriptionSr{
+	margin-left:19px;
+}
+
+.listing-index{
+	margin-top:60px;
+}
+
+/**
+*Listing add container
+*/
+.listing-add{
+	margin-top:100px;
+	margin-bottom: 15px;
+}
+
+.listing-add fieldset{
+	background-color: white;
+}
+
+.listing-add div{
+	margin-bottom: 15px;
+}
+
+.listing-add .input select{
+	margin-left: 7px;
+}
+
+.listing-add .input{
+	margin-left: 15px;
+}
+
+.listing-add textarea{
+	vertical-align: middle;
+}
+
+.listing-add hr{
+	background-color:lightgrey;
+	border-color:lightgrey;
+}
+
+input{
+	width:30%;
+	border-radius: 2px;
+}
+
+/**
+*Main page about page(Bemutatkozas)!
+*/
+#pages-about{
+	background-color: white;
+	border:2px solid lightgrey;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+#pages-about hr{
+	background-color:lightgrey;
+	border-color:lightgrey;
+}
+
+/**
+*About us header format
+*/
+span.page-about-header{
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #F1592A;
+	line-height: 35px;
+}
+
+/**
+*Contakt page format(main page)
+*/
+#problem-message{
+	background-color: white;
+	border:2px solid lightgrey;
+	border-radius:10px;
+	padding: 15px;
+}
+
+/**
+*Profile container
+*/
+#profile,
+div.profile-edit{
+	background-color: white;
+	padding-bottom: 50px;
+	margin-top: 120px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+/**
+*After login user profile table format
+*/
+#profile-table{
+	margin-top: 50px;
+}
+
+/**
+*User profile style
+*/
+.user-profile-photo{
+	margin-left: -15px;
+	padding-bottom: 15px;
+}
+
+/**
+*User profile table style
+*/
+th.info{
+	font-family: italic;
+}
+
+/**
+*Index main page label format!
+*/
+div.index-info{
+	text-align: center;
+	font-weight:bold;
+	font-style: italic;
+	margin-top: 100px;
+}
+
+/**
+*Index main page orange color!
+*/
+div.index-info p{
+	color: #F1592A; 
+}
+
+/**
+*Index main page orange color!
+*/
+div.index-info h1{
+	font-size: 41px;
+}
+
+/**
+*Index main page,
+*search button style
+*/
+div.search-box{
+	background-color: lightgrey;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+div.search-box label[for="ListingRentPrice"],
+label[for="ListingSize"]{
+	margin-left: 2px;
+}
+
+
+div.search-box button[type="submit"] {
+	border-width: 0px;
+	border-radius: 5px;
+	font-style: italic;
+	font-weight: normal;
+	background-color: #F1592A;
+	color: white;
+	width: 100px;
+}
+
+div.search-box button[type="submit"]:hover {
+	font-weight: bold;
+}
+
+div.search-box input[type=radio]{
+	width: 20px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+div.search-box select{
+	width: 80px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+/**
+*Main page short search,input format
+*/
+div.search-box input{
+	width: 156px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+div.search-box button{
+	margin-left:15px;
+	margin-right:15px;
+	padding: 5px;
+}
+
+/**
+*Main page boxes,
+*contain the listings(index)!
+*/
+div.box{
+	position: relative;
+	width: 193px;
+	height: 183px;
+	border: 2px double;
+	border-radius: 7px;
+	border-color: coral;
+	padding: 0px;
+	float: left;
+	margin: 50px 35px 50px 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+div.inner-box-top{
+	background-color: lightgray;
+	border-radius:6px;
+}
+
+div.inner-box-top a{
+	color: #F1592A;
+}
+
+div.inner-box-top a:hover{
+	font-weight: bold;
+}
+
+div.inner-box-bottom{
+	width:100%;
+	background-color: lightgray;
+	border-radius:6px;
+	position: absolute;
+	bottom: 0px;
+	font-weight: bold;
+}
+
+/**
+*Main page box style
+*Highlight listings
+*/
+.box-city{
+	color:#f1592a;
+	font-size:16px;
+}
+
+/**
+*Main page box style
+*Highlight listings
+*/
+.box-size-room-style{
+	color:#F1592A;
+}
+
+/**
+*Listing details wrapper
+*Hirdetésmegtekintés container
+*/
+div#listing-details-wrapper{
+	background-color:white;
+	border: 2px solid lightgray;
+	border-radius: 8px;
+}
+
+div#listing-details-wrapper div.listing-details{
+	clear: both;
+	width: 500px;
+	margin-top: 104px;
+	float:left;
+}
+
+/**
+*Listing view user information format
+*Hirdetésmegtekintésekor információ a felhasználoról.
+*/
+div.user-details{
+	float: left;
+	margin: 100px 0px 0px 10px;
+	background-color: lightgray;
+	padding: 5px;
+	border:2px ridge lightgrey; 
+	border-radius: 8px;
+	width:55%;
+}
+
+div.user-details-inner{
+	margin: 0 0 0 10px;
+}
+
+/**
+*Listing details
+*user photo style!!
+*/
+div.user-image{
+	float: left;
+}
+
+/**
+*User info box style
+*Hirdeto neve,telefon stb..
+*/
+div.user-info{
+	float: left;
+	margin-left:60px;
+	width:50%;
+}
+
+div.user-phone{
+	color: lightyellow;
+	font-size: 32px;
+}
+
+div.user-fullname{
+	color: lightyellow;
+	font-size: 18px;
+	margin-top:8px;
+}
+
+div.listing-description{
+	float: left;
+	background-color: red;
+	width: 100%;
+	margin: 0px 0px 0px 6px;
+	background-color: lightgray;
+}
+
+
+/**
+*Listing details
+*information format
+*/
+div.description-inner{
+	margin-top: 10px;
+	overflow: auto;
+}
+
+span.text-format{
+	padding-bottom: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+	display: block;
+}
+
+/**
+*Listing details textarea format.
+*/
+div.description-inner textarea{
+	border-radius: 2px;
+	margin-top: 10px;
+}
+
+/**
+*Contakt the advertisting box!
+*/
+div.contact-user{
+	width: 1131px;
+	clear: both;
+	padding: 5px;
+}
+
+/**
+*Contakt the advertisting
+*format inner!
+*/
+div.contact-user-inner{
+	margin-top: 12px;
+}
+
+
+div.contact-user-inner div.contact-user-button{
+	margin-top: 18px;
+}
+
+/**
+*Text style white
+*listing_process!!
+*/
+.text-style{
+	display: block;
+	color:#f1592a;
+	font-weight:bold;
+	font-size: 16px;
+	text-decoration:underline;
+}
+
+.text-style legend{
+	display: block;
+	color:#f1592a;
+	font-weight:bold;
+	font-size: 18px;
+	text-decoration:underline;
+}
+
+div.contact-user fieldset{
+	border-radius: 20px;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+div.listing-add fieldset{
+	border: 2px ridge lightgrey;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+div.listing-add legend{
+	width: 150px;
+	font-style: italic;
+}
+
+/**
+*Result after
+*index SEARCH format.
+*/
+div.search-result-show{
+	margin-top: 110px;
+}
+
+
+div.search-result-show table,
+div.listingown-inner table{
+    width: 100%;
+}
+
+div.search-result-show table tr:nth-child(even){
+    background-color: #eee;
+}
+
+div.search-result-show table tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+/**
+*After search table
+*format(style header)
+*/
+div.search-result-show th{
+	padding: 5px;
+	text-align:left;
+	font-style: italic;
+	font-size: 17px;
+	color:#F1592A;
+}
+
+div.search-result-show tr{
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+div.search-result-show td{
+	text-align: left;
+	padding: 10px;
+}
+
+div.search-result-show td{
+	color:black;
+	font-weight: bold;
+}
+
+td.search-result-description{
+	max-width: 200px;
+	overflow: hidden;
+}
+
+/**
+*Result after index
+*search image format!
+*/
+
+.searchimageformat{
+	width: 75px;
+	height: 75px;
+	margin-left: 5px;
+}
+
+/**
+*Search-filter-css
+*/
+
+div.search-filter fieldset{
+	border-radius: 15px;
+	padding: 10px;
+	margin-top:110px; 
+}
+
+div.search-filter legend{
+	width: 170px;
+	color:#F1592A;
+}
+
+div.search-filter select, input{
+	margin-top: 10px;
+}
+
+div.search-filter fieldset{
+	border: 1px solid;
+}
+
+div.search-filter input{
+	width:40%;
+}
+
+div.search-filter-inner-one, div.search-filter-inner-two{
+	width: 500px;
+	float: left;
+}
+
+div.search-filter input[id="ListingCity"]{
+	margin-left: 70px;
+}
+
+div.search-filter select[id="ListingStatusRent"]{
+	margin-left: 55px;
+}
+
+div.search-filter input[id="ListingAddress"]{
+	margin-left: 18px;
+}
+
+div.search-filter select[id="ListingStatus"]{
+	margin-left: 11px;
+}
+
+div.search-filter input[id="ListingSize"]{
+	margin-left: 6px;
+}
+
+div.search-filter select[id="ListingNumbersRoom"]{
+	margin-left: 15px;
+}
+
+div.search-filter select[id="ListingHeating"]{
+	margin-left: 73px;
+}
+
+div.search-filter select[id="ListingParking"]{
+	margin-left: 51px;
+}
+
+div.search-filter input[id="ListingRentPrice"]{
+	margin-left: 5px;
+}
+
+div.search-filter select[id="ListingDeposit"]{
+	margin-left: 61px;
+}
+
+/**
+*Search more style
+*/
+a#search-filter-more{
+	display: block;
+	color: rgb(48,113,169);
+	float: right;	
+	margin-right: 62px;
+}
+
+/**
+*After login, own page listings format!
+*/
+div.listingown-inner{
+	margin-top: 80px;
+}
+
+div.listingown-inner table td{
+	padding: 10px;
+	color:black;
+	font-weight: bold;
+}
+
+div.listingown-inner th{
+	padding: 5px;
+	color: #F1592A;
+	font-style: italic;
+	font-size: 16px;
+}
+
+div.listingown-inner table tr{
+	border-bottom: 1px solid black;
+}
+
+div.listingown-innertable tr:nth-child(even){
+    background-color: #eee;
+}
+
+div.listingown-inner table tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+/**
+*Paging(cake_generic) css(Paginate)
+*/
+.paging {
+	background:#fff;
+	color: #ccc;
+	margin:40px 0px 90px 0px;
+	clear:both;
+}
+.paging .current,
+.paging .disabled,
+.paging a {
+	text-decoration: none;
+	padding: 5px 8px;
+	display: inline-block
+}
+.paging > span {
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-left: 0;
+}
+.paging > span:hover {
+	background: #efefef;
+}
+.paging .prev {
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+.paging .next {
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+.paging .disabled {
+	color: #ddd;
+}
+.paging .disabled:hover {
+	background: transparent;
+}
+.paging .current {
+	background: #efefef;
+	color: #c73e14;
+}
+
+/**
+*Edit listing-photo box style
+*/
+div.edit-listing-photo{
+	padding: 10px;
+	border:1px solid black; 
+}
+
+/**
+*Image style format in the box!!
+*/
+div.edit-listing-photo img{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-top:10px;
+	margin-left:10px;
+	cursor: pointer;
+	border:1px solid black;
+}
+
+/**
+*Edit listing text-title style format.
+*/
+span.edit-listing-photo-text{
+	display: block;
+	font-style: italic;
+	text-decoration: underline;
+	color:#F1592A;
+}
+
+div#tabs-center{
+	width:100%;
+	margin-top: 10%;
+}
+
+/**
+*Favorite image
+*/
+.heart-favorite{
+	width:50px;
+}

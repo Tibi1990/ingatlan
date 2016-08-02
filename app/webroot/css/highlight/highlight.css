@@ -1,0 +1,82 @@
+/**
+*Highlight wrapper style
+*/
+div.highlight-wrapper{
+	margin-top: 140px;
+}
+
+/**
+*First box style
+*/
+div.highlight-first-box{
+	width: 30%;
+	border:1px solid lightgrey;
+	margin-right: 10px;
+	float: left;
+}
+
+/**
+*Second box style
+*/
+div.highlight-second-box{
+	width: 30%;
+	border:1px solid lightgrey;
+	float: left;
+	margin-right: 10px;
+}
+
+/**
+*Third box style
+*/
+div.highlight-third-box{
+	width: 30%;
+	border:1px solid lightgrey;
+	float: left;
+}
+
+/**
+*Box style
+*/
+div.highlight-first-box,
+div.highlight-second-box,
+div.highlight-third-box{
+	height: 300px;
+	border-radius: 15px;
+	border-width: 2px;
+	padding: 10px;
+	position: relative;
+	border-color: rgb(48,113,169);
+}
+
+/**
+*General highlight css
+*/
+.center-bold{
+	text-align:center;
+	font-weight:bold;
+	text-decoration: underline;
+	color: #F1592A;
+}
+
+p.text-format {
+    width: 306px;
+    text-align: center;
+}
+
+/**
+*Highlights button style
+*/
+.highlights-button{
+	width:600px;
+	margin-left: 70px;
+}
+
+/**
+*Megrendelem button style
+*/
+.highlights-button input[type=submit]{
+	padding:10px;
+	color:#F1592A;
+
+
+}
